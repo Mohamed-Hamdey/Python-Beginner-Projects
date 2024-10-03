@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Secrets</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: #f8f9fa; /* Set background color */
+      }
+      .jumbotron {
+        background-color: #007bff; /* Set jumbotron background color */
+        color: #fff; /* Set text color */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome</h1>
+        <p>Are you ready to discover my secret?</p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('login') }}">Login</a>
+      </div>
+    </div>
+  </body>
+</html>
