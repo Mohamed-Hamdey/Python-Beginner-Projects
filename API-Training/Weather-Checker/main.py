@@ -6,7 +6,7 @@ auth_token = "26876ea2be1e1a70588f7a7850144d73"
 
 
 
-API_KEY = "45cfef27990f159a5e2a78f3a24cc29b"
+API_KEY = ""
 response = requests.get(url="https://api.openweathermap.org/data/2.5/forecast?lat=30.013651&lon=31.208139&cnt=3&appid=45cfef27990f159a5e2a78f3a24cc29b")
 print(f"status code : {response.status_code}")
 weather_data  = response.json()
